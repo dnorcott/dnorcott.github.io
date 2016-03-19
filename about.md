@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hi! I'm David Norcott, a software developer from Boston, MA. I've been writing software professionally since 2005 and unprofessionally since 1995 (some might argue that I never stopped writing unprofessionally). I've always been focused on mobile software since my first "real" job (remember when BlackBerry was a thing?).
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+When I'm not writing iOS apps for [Rue La La](http://www.ruelala.com/) you can probably find me in the Great Outdoors, hiking, cycling, or sailing. Or on a rainy day, playing guitar or fiddle.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+###Why norchops.com?
+It all goes back to my college days when I had big sideburns. For reference, I looked a whole lot like this picture of the Russian playwright Alexander Pushkin:
+
+![Alexander Pushkin with some sweet chops]({{ site.url }}/assets/2016/03/pushkin.jpg)
