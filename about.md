@@ -12,3 +12,6 @@ When I'm not writing iOS apps for [Rue La La](http://www.ruelala.com/) you can p
 It all goes back to my college days when I had big sideburns. For reference, I looked a whole lot like this picture of the Russian playwright Alexander Pushkin:
 
 ![Alexander Pushkin with some sweet chops]({{ site.url }}/assets/2016/03/pushkin.jpg)
+
+###About You
+That's what I want to know! Drop me a line.
