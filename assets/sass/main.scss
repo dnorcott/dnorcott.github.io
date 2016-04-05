@@ -951,6 +951,14 @@
 				color: _palette(accent2, fg-light);
 			}
 		}
+		
+		.links {
+			margin: (_size(element-margin) * 0.5) 0 0 0;
+
+			a {
+				color: _palette(accent2, fg-light);
+			}
+		}
 
 		.copyright {
 			color: _palette(accent2, fg-light);

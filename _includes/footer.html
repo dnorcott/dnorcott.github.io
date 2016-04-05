@@ -1,5 +1,8 @@
 <!-- Footer -->
   <footer id="footer">
+    <ul class="links">
+  	  <a href="/about/">About</a>
+  	</ul>
     <ul class="icons">
       {% if site.facebook_username %}
       <li><a href="https://www.facebook.com/{{ site.facebook_username }}" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
@@ -28,8 +31,5 @@
       {% if site.feed_icon %}
       <li><a href="{{ site.github.url }}/{{ site.feed_icon }}.xml" class="icon fa-rss"><span class="label">Feed</span></a></li>
       {% endif %}
-    </ul>
-    <ul class="copyright">
-      <li>&copy; {{ site.copyright }}</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
     </ul>
   </footer>
