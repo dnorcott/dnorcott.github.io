@@ -7,7 +7,7 @@ categories: swift
 
 ![Paul McCartney](/assets/images/2016/03/Paul-McCartney.jpg "Paul McCartney, snazzy dresser. Probably not a Swift programmer.")
 
-Paul McCartney, snazzy dresser. Probably not a Swift programmer.
+*Paul McCartney, snazzy dresser. Probably not a Swift programmer.*
 
 I get it. I really do. I've been writing Objective-C since iOS 3 dropped in 2009. At first I thought it was just some crazy language cooked up by equally crazy engineers at NeXT, but then I began to see the beauty in all those square brackets.
 
