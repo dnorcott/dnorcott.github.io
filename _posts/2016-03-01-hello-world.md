@@ -9,6 +9,8 @@ I went to a conference a while ago and met a fantastic young developer. She was 
 
 So I was inspired to start a blog.
 
+<!--more-->
+
 I've been writing software professionally for ten years. I spent the last six years consulting: going to different companies around Boston, helping them with their mobile apps and strategy, and learning all I could along the way. But I've never written about it. I always felt that I don't have anything new to say, especially since I read so many great blogs by so many people smarter than myself.
 
 But I've come to realize that I don't have to know *everything* to write a blog post, I just have to know something. Hopefully someone will find this blog and read something that inspires them or teaches them, or just helps them when dealing with an obscure programming topic or a bug in Xcode. Hopefully I'll learn something through writing here, or I'll connect with other great developers, like you dear reader, through my writing.

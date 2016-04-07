@@ -16,3 +16,4 @@ email: "david.norcott@gmail.com"
 gems: [jekyll-paginate]
 paginate_path: "/page/:num/"
 paginate: 8
+excerpt_separator: <!--more-->
