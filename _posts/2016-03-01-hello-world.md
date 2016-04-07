@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello World!"
 date:   2016-03-01 15:00:00 -0500
-categories: 
+categories: life
 ---
 
 I went to a conference a while ago and met a fantastic young developer. She was just a year or two into her career and was full of great ideas and great questions. I was impressed that she had already [started a blog][eskimona] with a number of thought-provoking posts. Though I've been programming for a long time (by my standards) I've never had the courage to put my thoughts out on the internet, though I've benefited tremendously by all the wonderful developers who do have the courage.
