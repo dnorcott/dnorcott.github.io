@@ -11,7 +11,7 @@ When I'm not writing iOS apps for [Rue La La](http://www.ruelala.com/) you can p
 ### Why [norchops.com](http://www.norchops.com)?
 It all goes back to my college days when I had big sideburns. For reference, I looked a whole lot like this picture of the Russian playwright [Alexander Pushkin](https://en.wikipedia.org/wiki/Alexander_Pushkin):
 
-![Alexander Pushkin with some sweet chops]({{ site.url }}/assets/images/2016/03/pushkin.jpg)
+![Alexander Pushkin with some sweet chops](/assets/images/2016/03/pushkin.jpg)
 
 ### About the site
 Powered by [Jekyll](http://jekyllrb.com). [Arctic Fox](http://diezcami.github.io/arctic-fox-theme/) theme by [Camille Diez](http://diezcami.github.io).
