@@ -14,7 +14,7 @@ It all goes back to my college days when I had big sideburns. For reference, I l
 ![Alexander Pushkin with some sweet chops]({{ site.url }}/assets/images/2016/03/pushkin.jpg)
 
 ### About the site
-Generated with [Jekyll](http://jekyllrb.com), designed by [HTML5 UP](http://html5up.net).
+Powered by [Jekyll](http://jekyllrb.com). [Arctic Fox](http://diezcami.github.io/arctic-fox-theme/) theme by [Camille Diez](http://diezcami.github.io).
 
 ### About You
 That's what I want to know! Drop me a line.
