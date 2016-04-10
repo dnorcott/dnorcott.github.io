@@ -37,7 +37,7 @@ $on-laptop:        700px;
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
-	}
+    }
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
