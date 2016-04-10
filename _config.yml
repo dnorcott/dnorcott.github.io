@@ -2,8 +2,6 @@ title: norchops
 description: >
   [**norchops.com:**](http://www.norchops.com) better living through software development. Or something.
 copyright: David Norcott
-sass:
-  sass_dir: assets/sass
 url: http://localhost:4000
 twitter_username: "@davidnorcott"
 linkedin_username: "davidnorcott"

@@ -1,5 +1,18 @@
-<!-- Header -->
-  <header id="header">
-    <a href="{{ site.github.url }}/" class="image avatar"><img src="{{ site.github.url }}/images/avatar.jpg" alt="" /></a>
-    <h1>{{ site.description | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
-  </header>
+<div class="site-header">
+
+    <nav class="site-nav">
+        {% for page in site.pages %}
+          {% if page.title %}
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% endif %}
+        {% endfor %}
+    </nav>
+
+    <h1>
+     <span>
+      <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+     </span>
+    </h1>
+
+
+</div>
