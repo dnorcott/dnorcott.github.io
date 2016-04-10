@@ -8,6 +8,11 @@
     }
 
     .site-header a {color: $brand-color};
+    
+    .site-header h1 {
+    	margin-left: 16px;
+    	padding-top: 4px;
+    }
 
     .site-nav {
         padding-top: 16px;
