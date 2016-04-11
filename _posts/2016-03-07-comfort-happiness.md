@@ -22,6 +22,7 @@ I try to keep this mantra of comfort vs happiness in mind in all things. It's ea
 Update: This view was the reward for my hike up Mt Avalon and Mt Field.
 
 ![Mt Field](/assets/images/2016/03/Avalon-Field1.jpg "View from the top of Mt Field")
+
 ![Mt Washington](/assets/images/2016/03/Avalon-Field2.jpg "View of Mt Washington")
 
 [seth_important]: http://sethgodin.typepad.com/seths_blog/2016/01/deconstructing-urgent-vs-important.html
