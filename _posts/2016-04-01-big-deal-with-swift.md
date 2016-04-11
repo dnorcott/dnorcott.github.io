@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "What's the big deal with Swift?"
-date:   2016-03-18 15:00:00 -0500
+date:   2016-04-01 15:00:00 -0500
 categories: swift
 ---
 
-![Paul McCartney](/assets/images/2016/03/Paul-McCartney.jpg "Paul McCartney, snazzy dresser. Probably not a Swift programmer.")
+![Paul McCartney](/assets/images/2016/04/Paul-McCartney.jpg "Paul McCartney, snazzy dresser. Probably not a Swift programmer.")
 
 *Paul McCartney, snazzy dresser. Probably not a Swift programmer.*
 
@@ -36,6 +36,9 @@ But back to Sir Paul. In the very next line he lays down the truth:
 > You used to say "live and let live". But if this ever-changing world in which we live in makes you give in and cry, say "live and let die".
 
 The King is dead. Long live the King.
+
+
+<hr />
 
 \[1\] Yeah I know that's the Guns N' Roses version, but I couldn't find an official Paul McCartney version. Plus GnR rules.
 
