@@ -2,7 +2,7 @@
 layout: post
 title:  "Comfort and Happiness"
 date:   2016-03-07 15:00:00 -0500
-categories: life
+tags: life
 ---
 
 The other day, Seth Godin wrote about the difference between the [immediate and the important][seth_important].

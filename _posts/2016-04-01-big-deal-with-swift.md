@@ -2,7 +2,7 @@
 layout: post
 title:  "What's the big deal with Swift?"
 date:   2016-04-01 15:00:00 -0500
-categories: swift
+tags: swift
 ---
 
 ![Paul McCartney](/assets/images/2016/04/Paul-McCartney.jpg "Paul McCartney, snazzy dresser. Probably not a Swift programmer.")
