@@ -143,6 +143,6 @@ We already explored the third method in this article. This is my preferred metho
 
 The fourth is pretty interesting and powerful but I'm not sure I'd recommend it. It removes the dependency on Microphone but it adds a dependency on new singleton called AppContext. What makes this powerful is that your test suite and your production code could have different AppContexts, allowing you to make sweeping changes quickly.
 
-###Conclusion
+### Conclusion
 
 So there you have it! I once heard dependency injection called "a ten-dollar word for a 10-cent concept". It's a simple yet powerful tool to break up dependencies in your code and increase testability.
