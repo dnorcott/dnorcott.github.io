@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dependency Injection in Swift"
-date:   2016-04-25 9:00:00 -0500
+date:   2016-04-25 11:00:00 -0500
 tags: 	swift, testing
 ---
 
