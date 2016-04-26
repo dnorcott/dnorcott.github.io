@@ -145,4 +145,4 @@ The fourth is pretty interesting and powerful but I'm not sure I'd recommend it.
 
 ### Conclusion
 
-So there you have it! I once heard dependency injection called "a ten-dollar word for a 10-cent concept". It's a simple yet powerful tool to break up dependencies in your code and increase testability.
+So there you have it! I once heard dependency injection called "a ten-dollar word for a ten-cent concept". It's a simple yet powerful tool to break up dependencies in your code and increase testability.
