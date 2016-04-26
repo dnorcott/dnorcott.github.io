@@ -95,7 +95,7 @@ But back to the matter at hand. The new class, `MockMicophone` is a subclass of 
 
 In a nutshell, this is what Dependency Injection is. It's just a way to make explicit the dependencies your class has, and allow other objects to override those dependencies.
 
-###DI: Four Ways
+### DI: Four Ways
 
 There are four ways (that I know of) to accomplish dependency injection. Let's run through them quickly with some examples:
 
