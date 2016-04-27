@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Dependency Injection in Swift"
+title:  "Four Types of Dependency Injection in Swift"
 date:   2016-04-25 11:00:00 -0500
 tags: 	swift, testing
 ---
 
-I've recently been working with a large legacy codebase that doesn't have great test coverage (I guess that's redundant since Michael Feathers defines legacy code as [code without tests](https://en.wikipedia.org/wiki/Legacy_code)). As I fix bugs or add features, I also try to add unit tests along the way. But this can get pretty tricky pretty fast and one of the main roadblocks is a class's dependency graph.
+I've been working with a large legacy codebase that doesn't have great test coverage (which I guess is redundant since Michael Feathers defines legacy code as [code without tests](https://en.wikipedia.org/wiki/Legacy_code)). As I fix bugs or add features, I also try to add unit tests along the way. But this can get pretty tricky pretty fast and one of the main roadblocks is a class's dependency graph.
 
 <!--more-->
 
@@ -26,7 +26,7 @@ class Musician {
 }
 {% endhighlight %}
 
-Here we've got a Musician class that can do one thing: sing a favorite song! Now Let's write a test for that.
+Here we've got a Musician class that can do one thing: sing a favorite song! Now let's write a test for that.
 
 {% highlight Swift %}
 class MusicianTest: XCTestCase {
@@ -41,6 +41,8 @@ class MusicianTest: XCTestCase {
 We quickly run into a problem: there's nothing to assert! How do we know if the musician is singing?
 
 The real issue is that the Musician *depends* on the Microphone but our test has no way of accessing the Microphone. We can't check if the Musician is using it correctly (or at all). Another major issue is that we don't know what the Microphone is doing behind the scenes. For all we know it could be starting up a network connection or fetching data from a database. Our dependencies could have dependencies! This is getting awfully complicated.
+
+### Enter Dependency Injection
 
 We need a way to separate out the dependencies in our Musician class. Let's start by pulling the Microphone out into an instance variable.
 
@@ -89,7 +91,7 @@ class MusicianTest: XCTestCase {
 }
 {% endhighlight %}
 
-Whoa! Hold on one second! This test just took an interesting turn of events. Did I just declare a new class *inside* of a function?! Coming from an Objective-C world, this blew my mind the first time I saw it. Dear iOS developers: welcome to the 21st century.
+Hold on one second! This just took an interesting turn of events. Is that a new class declared *inside* of a function?! Coming from an Objective-C world, this blew my mind the first time I saw it. Dear iOS developers: welcome to the 21st century.
 
 But back to the matter at hand. The new class, `MockMicophone` is a subclass of `Microphone` that remembers the last song it recorded. By injecting this new MockMicrophone into our Musician class we now have a way to verify behavior.
 
@@ -146,3 +148,7 @@ The fourth is pretty interesting and powerful but I'm not sure I'd recommend it.
 ### Conclusion
 
 So there you have it! I once heard dependency injection called "a ten-dollar word for a ten-cent concept". It's a simple yet powerful tool to break up dependencies in your code and increase testability.
+
+### PS
+
+I started writing this blog post a couple weeks ago, coincidentally while listening to Prince. I was really saddened to hear about his passing a few days ago. I decided to keep the code samples as-is as a tribute to His Royal Badness.
