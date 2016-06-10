@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "for-loops are for suckers: An OO-programmer's guide to map and flatMap"
+title:  "For-loops are overrated: An OO-programmer's guide to map and flatMap"
 date:   2016-06-09 22:00:00 -0400
 tags: swift
 ---
